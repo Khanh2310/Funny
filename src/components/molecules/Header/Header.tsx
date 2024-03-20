@@ -1,3 +1,5 @@
+import { Button } from '../../atoms/Button';
+
 export const Header = () => {
   return (
     <div className="parallax">
@@ -33,7 +35,7 @@ export const Header = () => {
           <h1 className="hero__title">
             <span>Gear up!</span> We're going monster hunting!
           </h1>
-          <button className="button">Sign up for beta</button>
+          <Button type="submit">Sign up for beta</Button>
         </div>
       </div>
 
