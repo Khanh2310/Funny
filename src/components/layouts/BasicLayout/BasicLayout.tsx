@@ -6,7 +6,7 @@ export const BasicLayout = ({ children }: { children: ReactNode }) => {
     <>
       <Header />
       <div className="main-content">
-        <div className="wrapper">{children}</div>
+        <div className="wrapper-app">{children}</div>
       </div>
     </>
   );

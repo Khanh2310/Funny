@@ -5,5 +5,11 @@ export const Button = forwardRef<
   HTMLButtonElement,
   ComponentPropsWithoutRef<'button'>
 >(function ButtonBase({ className = '', ...props }, ref) {
-  return <button {...props} ref={ref} className={`${className} button`} />;
+  return (
+    <button
+      {...props}
+      ref={ref}
+      className={`${className} button cursor-pointer hover:opacity-50`}
+    />
+  );
 });

@@ -83,7 +83,6 @@
 }
 
 /* general styling */
-
 html {
   color-scheme: dark;
 }
@@ -102,7 +101,7 @@ img {
   max-width: 100%;
 }
 
-.wrapper {
+.wrapper-app {
   width: min(65rem, 100% - 4rem);
   margin-inline: auto;
 }

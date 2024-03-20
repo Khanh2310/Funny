@@ -4,7 +4,7 @@ export const Header = () => {
   return (
     <div className="parallax">
       <header className="primary-header">
-        <div className="wrapper">
+        <div className="wrapper-app">
           <div className="primary-header__inner">
             <div className="logo">
               <img src="assets/Logo.webp" alt="" />
@@ -31,7 +31,7 @@ export const Header = () => {
         </div>
       </header>
       <div className="hero">
-        <div className="wrapper">
+        <div className="wrapper-app">
           <h1 className="hero__title">
             <span>Gear up!</span> We're going monster hunting!
           </h1>
